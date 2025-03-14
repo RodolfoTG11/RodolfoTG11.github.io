@@ -1,9 +1,4 @@
-// Mostrar alerta al cargar la página solo en index
-if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
-    alert('¡Bienvenido a Cecile BakeryRD! Descubre nuestros deliciosos postres.');
-  }
-  
-  // Función para alternar modo oscuro
+// Función para alternar modo oscuro
   function toggleDarkMode() {
     document.body.classList.toggle('modo-oscuro');
     const modoOscuroActivo = document.body.classList.contains('modo-oscuro');

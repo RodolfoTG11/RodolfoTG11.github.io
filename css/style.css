@@ -20,7 +20,7 @@ body {
   
   /* ----------- Hero Image ----------- */
   .hero-image {
-    background-image: url('../img/hero.jpg'); /* Cambiar por tu imagen real si lo deseas */
+    background-image: url('/img/Especiales.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -34,7 +34,7 @@ body {
   
   .hero-text h2 {
     font-size: 3rem;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6); 
     padding: 15px;
     border-radius: 10px;
   }
@@ -234,19 +234,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.5); /* Fondo suave oscuro */
     padding: 2rem;
   }
   .hero-text h2 {
     font-size: 3rem;
-    background-color: rgba(0,0,0,0.6);
     padding: 10px 20px;
     border-radius: 10px;
   }
   .hero-text p {
     font-size: 1.5rem;
-    background-color: rgba(0,0,0,0.4);
     padding: 8px 16px;
     border-radius: 10px;
   }
-  
+/* Header fijo rosado claro siempre */
+header {
+  background-color: #fce4ec !important;
+}
+
+/* Texto del eslogan debajo del logo */
+.bakery-tagline {
+  color: #000 !important;
+  font-style: italic;
+}
+
+/* Evitar que modo oscuro lo sobrescriba */
+.modo-oscuro header {
+  background-color: #fce4ec !important;
+}
+
+.modo-oscuro .bakery-tagline {
+  color: #000 !important;
+}
